@@ -103,6 +103,9 @@ header .icons #menu-bars{
 #search-from #search-box::placeholder{
        color: #eee;
 }
+#search-from #search-box::-webkit-search-cancel-button{
+       -webkit-appearance: none;
+}
 /* media queries */
 
 @media (max-width:991px)
