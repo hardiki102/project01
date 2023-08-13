@@ -104,7 +104,7 @@ header .icons #menu-bars{
        color: #eee;
 }
 #search-from #search-box::-webkit-search-cancel-button{
-       -webkit-appearance: #eee;
+       -webkit-appearance: none;
 }
 
 /* media queries */
