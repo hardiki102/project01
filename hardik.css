@@ -79,7 +79,7 @@ header .icons #menu-bars{
        display: none;
        
 }
-#search-for{
+#search-form{
        position: fixed;
        top: 0; left: 0;
        height: 100%; width: 100%;
