@@ -79,18 +79,6 @@ header .icons #menu-bars{
        display: none;
        
 }
-#search-form{
-       position: fixed;
-       top: 0; left: 0;
-       height: 100%; width: 100%;
-       z-index: 1004;
-       background: rgba(0,0,0,.8);
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       padding:0 1rem;
-       
-}
 
 /* media queries */
 
