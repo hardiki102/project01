@@ -105,8 +105,8 @@ padding:0 1rem;
        color:#eee;
 
 }
-#search-form #search-box::placeholder{ color:none;
-
+#search-form #search-box::-webkit-search-cancel-button{
+-webkit-appearance: none;
 }
 /* media queries */
 
