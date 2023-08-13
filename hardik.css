@@ -98,7 +98,7 @@ header .icons #menu-bars{
        color: #fff;
        font-size: 3rem;
        text-transform: none;
-       background: none n;
+       background: none;
 }
 #search-from #search-box::placeholder{
        color: #eee;
