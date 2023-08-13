@@ -106,6 +106,16 @@ header .icons #menu-bars{
 #search-from #search-box::-webkit-search-cancel-button{
        -webkit-appearance: none;
 }
+#search-from label{
+       color: #fff;
+       cursor: pointer;
+       font-size: 3rem;
+
+}
+#search-from label:hover{
+       color: var(--green);
+}
+
 
 /* media queries */
 
