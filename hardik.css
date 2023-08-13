@@ -105,6 +105,9 @@ padding:0 1rem;
        color:#eee;
 
 }
+#search-form #search-box::placeholder{ color:none;
+
+}
 /* media queries */
 
 @media (max-width:991px)
