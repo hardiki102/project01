@@ -107,7 +107,7 @@ background: none;
 }
 #search-form #search-box::-webkit-search-cancel-button{
 -webkit-appearance: none;
-       }
+}
 /* media queries */
 
 @media (max-width:991px)
@@ -159,4 +159,4 @@ header .navbar.active{
 
        
        
-}
+                        }
