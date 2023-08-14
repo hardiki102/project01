@@ -1,7 +1,9 @@
-let menu = document.querySelector('#menu-bars');
+let menu = document.querySelectorAll('#menu-bars');
 let navbar = document.querySelectorAll('.navbar');
 
-menu.onclick = () =>{
-       menu.classList.toggle('.fa-times');
-       navbar.classList.toggle('.active');
-}
+$(document).ready(function(){
+       $("#menu-bars").click(function(){
+              $(".navbar").slideToggle();
+       });
+       
+});
