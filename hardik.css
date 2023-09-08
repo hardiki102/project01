@@ -115,7 +115,7 @@ background: none;
 
 }
 #search-from label:hover{
-       color: var(--green);
+       color:var(--green);
 }
 #search-from #close{
       position: absolute;
