@@ -114,16 +114,6 @@ background: none;
        font-size: 3rem;
 
 }
-#search-from label:hover{
-       color:var(--green);
-}
-#search-from #close{
-      position: absolute;
-      color: #fff;
-      cursor: pointer;
-      top: 2rem; right: 3rem;
-      font-size: 5rem; 
-}
 
 /* media queries */
 
