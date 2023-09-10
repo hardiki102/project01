@@ -6,19 +6,14 @@
               <meta name="viewport" content="width=device-width, initial-scale=1.0">
               <title>food order</title>
               <link ="stylesheet" herf="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.40/css/all.min.css">
-              <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+              <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         
               <link rel="stylesheet" href="hardik.css">
-              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-              <script src="hardik.js"></script>
-
-
+<script src="hardik.js"></script>
        </head>
        <body>
               <header>
-                     <a href="#" class="logo"><i class="fa-fa-untensils"></i>resto.</a>
-
+                   <a href="#" class="logo"> <i class="fa fa-utensils"></i></a> 
                      <nav class="navbar">
                             <a class="active" href="#home">home</a>
                             <a href="#dishes">dishes</a>
@@ -30,7 +25,7 @@
 
                      <div class="icons">
                      <ul>
-                            <a href="#" class="fa fa-bars" id="menu-bars"></a>
+                            <a herf="#" class="fa fa-bars" id="menu-bars"></a>
                     
                             <a herf="#" class="fa fa-search"></a>
                             <a herf="#" class="fa fa-heart"></a>
@@ -42,42 +37,94 @@
 
               <section class="home" id="home">
 
-            <div class="container">
-
-                <div class="wrapper">
-                      
-                    <div class="slide">
-
-                        <div class="content">
-
-                          <span>your special dish</span>
-                          <h3>spicy noodles</h3>
-                          <p>lorem iqsum dolor sit amet consectetur adipisicing elit. sit natus dolor cumque?</p>
-                          <a href="#" class="btn"></a>
-
-
-
-                        </div>
-                        <div class="image">
-                            <img src="pizza.jpg" alt="">
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-
-              </section>
-
-
-
-               
-
-</form>
-                  
-                            
+                     <div class="container">
+         
+                         <div class="wrapper">
+                               
+                             <div class="slide">
+         
+                                 <div class="content">
+         
+                                   <span>your special dish</span>
+                                   <h3>spicy noodles</h3>
+                                   <p>lorem iqsum dolor sit amet consectetur adipisicing elit. sit natus dolor cumque?</p>
+                                   <a href="#" class="btn"></a>
+         
+         
+         
+                                 </div>
+                                 <div class="image">
+                                     <img src="pizza.jpg" alt="">
+                                 </div>
+                             </div>
+                             <div class="slide">
+         
+                                   <div class="content">
+           
+                                     <span>your special dish</span>
+                                     <h3>spicy noodles</h3>
+                                     <p>lorem iqsum dolor sit amet consectetur adipisicing elit. sit natus dolor cumque?</p>
+                                     <a href="#" class="btn"></a>
+           
+           
+           
+                                   </div>
+                                   <div class="image">
+                                       <img src="P2.jpg" alt="">
+                                   </div>
+                               </div>
+           
+         
+                         </div>
+         
+         
+                     </div>
+          
+         
+         
+                       </section>
+       
        </body>
        </html>
+       */\
+       #search-form{
+              position: fixed;
+              top: 0; left: 0;
+              height: 100%; width: 100%;
+              z-index: 1004;
+              background: rgba(0,0,0,.8);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              padding:0 1rem;
+              
+       }
+       #search-form{
+              width: 50rem;
+              border-bottom: .1rem solid #fff;
+              padding: 1rem 0;
+              color: #fff;
+              font-size: 3rem;
+              text-transform: none;
+              background: none;
+       }
+       #search-from #search-box::placeholder{
+              color: #eee;
+       }
+       #search-from #search-box::-webkit-search-cancel-button{
+              -webkit-appearance: none;
+       }
+       #search-from label{
+              color: #fff;
+              cursor: pointer;
+              font-size: 3rem;
+       
+       }
+       #search-from label:hover{
+              color: var(--green);
+       }
+       
+       <form action="" id="search-form">
+              <input type="search" placeholder="search here..." name="" id="search-box">
+              <label for="search-box" class="fa fa-search"></labe>
+                            <i class="fa fa-times" id="close"></i> /*
