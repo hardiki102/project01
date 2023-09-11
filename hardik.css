@@ -76,6 +76,7 @@ header .icons a:hover{
        transform: rotate(360deg);
 }
 header .icons #menu-bars{
+       transition: top 0.3s;
        display: none;
        
 }
